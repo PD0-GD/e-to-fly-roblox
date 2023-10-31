@@ -1,3 +1,46 @@
+--[[
+    script made by MyWorld#4430
+
+    recommended hats:
+    https://www.roblox.com/catalog/62234425/Brown-Hair
+    https://www.roblox.com/catalog/63690008/Pal-Hair
+    https://www.roblox.com/catalog/62724852/Chestnut-Bun
+    https://www.roblox.com/catalog/451220849/Lavender-Updo
+    https://www.roblox.com/catalog/48474294/ROBLOX-Girl-Hair
+    https://www.roblox.com/catalog/48474313/Red-Roblox-Cap
+    https://www.roblox.com/catalog/376527115/Jade-Necklace-with-Shell-Pendant
+
+    discord.gg/pYVHtSJmEY - MORE OP SCRIPTS
+]]
+
+local netboost = Vector3.new(0, -25.05, 0) --set to false or nil to disable
+
+local partsWithId = {}
+local awaitRef = {}
+
+local root = {
+	ID = 0;
+	Type = "Folder";
+	Properties = {};
+	Children = {
+		{
+			ID = 1;
+			Type = "Model";
+			Properties = {
+				Name = "sit1";
+			};
+			Children = {
+				{
+					ID = 2;
+					Type = "Model";
+					Properties = {
+						Name = "torso";
+					};
+					Children = {
+						{
+							ID = 3;
+							Type = "Part";
+							Properties = {
 								FormFactor = Enum.FormFactor.Symmetric;
 								BottomSurface = Enum.SurfaceType.Smooth;
 								CanCollide = false;
